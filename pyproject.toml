@@ -1,0 +1,3 @@
+[project]name = "sovereign-ethics-engine"version = "0.1.0"description = "A transparent, auditable ethics decision engine based on the Sovereign Ethics Algebra."authors = [{ name = "Mike" }]readme = "README.md"license = { file = "LICENSE" }requires-python = ">=3.10"dependencies = []
+
+[project.urls]Homepage = "https://github.com/yourusername/sovereign-ethics-engine"Source = "https://github.com/yourusername/sovereign-ethics-engine"
