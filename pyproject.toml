@@ -1,3 +1,17 @@
-[project]name = "sovereign-ethics-engine"version = "0.1.0"description = "A transparent, auditable ethics decision engine based on the Sovereign Ethics Algebra."authors = [{ name = "Mike" }]readme = "README.md"license = { file = "LICENSE" }requires-python = ">=3.10"dependencies = []
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
 
-[project.urls]Homepage = "https://github.com/yourusername/sovereign-ethics-engine"Source = "https://github.com/yourusername/sovereign-ethics-engine"
+[project]
+name = "sovereign-ethics-engine"
+version = "0.1.0"
+description = "A sovereign, verifiable ethics engine with detectors, rules, and audit logging."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/capn1derfl/sovereign-ethics-engine"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

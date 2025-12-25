@@ -12,8 +12,8 @@
 # - auditability
 
 from enum import Enum, auto
-from detectors import *
-from context import Context, Request
+from .detectors import *
+from .context import Context, Request
 
 
 class Action(Enum):
