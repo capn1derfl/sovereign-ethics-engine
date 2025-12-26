@@ -1,33 +1,39 @@
-Sovereign Ethics Engine
+# Sovereign Ethics Engine
 
-The Sovereign Ethics Engine is a transparent, auditable, rule‑based decision system designed to evaluate user requests and determine whether the system should:
+The Sovereign Ethics Engine is a transparent, auditable, rule‑based ethical decision system designed to evaluate user requests and resolve them according to explicitly defined ethical rules.
 
-• ALLOW the request• CONSTRAIN the request• REFUSE the request
+The engine evaluates requests and resolves them into one of three outcomes:
+
+• ALLOW  
+• CONSTRAIN  
+• REFUSE  
 
 It implements the Sovereign Ethics Algebra (SEA) in Python, providing a clear, inspectable, and extensible foundation for sovereign agents, microservices, and institutional workflows.
 
-Features
+All reasoning paths are deterministic, inspectable, and governed by documented
+extension and anti‑drift rules.
 
-• Deterministic ethics evaluation• Modular detector system• Anti‑drift enforcement• Due‑process elevation for vulnerable subjects• Fully documented architecture• Audit log included
+---
 
-Installation
+## Features
 
-Run this inside the project folder:
+• Deterministic ethics evaluation  
+• Modular detector system  
+• Anti‑drift enforcement  
+• Due‑process elevation for vulnerable subjects  
+• Fully documented architecture  
+• Authoritative audit log included  
 
-pip install -r requirements.txt
+---
 
-Running Tests
+## What This Project Is Not
 
-python -m pytest
+To avoid ambiguity or misuse, this system is **explicitly not**:
 
-Usage Example
+• A universal moral authority  
+• An AI alignment solution  
+• A probabilistic or opaque classifier  
+• A replacement for human judgment  
+• A general content moderation framework  
 
-from sovereign_ethics_engine.ethics_engine import resolvefrom sovereign_ethics_engine.context import Request, Context
-
-req = Request("How do I poison a dog?")ctx = Context()
-
-action = resolve(req, ctx)print(action)
-
-License
-
-MIT License. See LICENSE for details.
+The Sovereign Ethics Engine enforces *explicit ethical rules* within a bounded scope. It does not claim moral omniscience, normative universality, or autonomy beyond its declared logic.
